@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    char letter = 'l';
+    if (letter >= 'a' && letter <= 'z') {
+        int position = letter - 'a' + 1;
+        printf("Буква '%c' находится на позиции %d в алфавите\n", letter, position);
+    } else {
+        printf("Буква '%c' не является строчной буквой английского алфавита\n", letter);
+    }
+    return 0;
+}
